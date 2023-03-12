@@ -31,8 +31,8 @@ function logMessage() {
  * logMyMessage('My message') => 'My message'
 */
 
-function logMyMessage () {
-  console.log('Here is my first output ever!');
+function logMyMessage (message) {
+  console.log(message);
 }
 
 
@@ -49,13 +49,8 @@ function logMyMessage () {
 */
 
 function logMessageWithMyName(name) {
-  console.log('My name is ' + name + '!')
+  console.log('My name is ' + name + '!');
 }
-
-logMessageWithMyName('Andrey');
-
-
-
 
 /**
  * ==============================================================
@@ -69,11 +64,8 @@ logMessageWithMyName('Andrey');
 */
 
 function logMyInfo(name, age) {
-  console.log('My name is ' + name + '. I am ' + age + ' ' + 'years old!')
+  console.log('My name is ' + name + '. I am ' + age + ' ' + 'years old!');
 }
-
-logMyInfo('Andrey', 18);
-
 
 
 // === TEST YOURSELF ===
